@@ -27,6 +27,7 @@ public class ForEachImpl {
         List<Employee> employeeList = new ArrayList<>();
         employeeList.add(new Employee(1, "John ", "Main St", 50000));
         employeeList.add(new Employee(2, "Jane ", "Oak St", 60000));
+        employeeList.add(new Employee(2, "Jane ", "Oak St", 160000));
         employeeList.add(new Employee(3, "Bob ", "Elm St", 70000));
 
         return employeeList;
